@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    height: 100px;
+    background-image: url("../img/clouds.gif");
+    background-size: 100%;
+    width: 100%;
+    cursor: url("../img/martelo.png"), auto;
+}
+
+.swal-modal {
+    color: black;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+main, section {
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: url("../img/martelo.png"), auto;
+}
+
+main {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    width: 100%;
+    background-image: url("../img/grass.png");
+}
+
+#board {
+    margin: auto;
+}
+
+#board div {
+    float: left;
+}
+
+.text {
+    float: left;
+    margin-top: 8px;
+    font-family: 'Press Start 2P', cursive;
+    padding: 12px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+footer {
+    height: 68px;
+    background-image: url("../img/ground.png");
+    position: sticky;
+}
+
+.quadrado1 {
+    margin-left: 40px;
+    box-shadow: 1px 1px 5px black;
+    margin-top: 14px;
+    position: absolute;
+}
+
+.quadrado2 {
+    position: absolute;
+    box-shadow: 1px 1px 5px black;
+    right: 40px;
+    margin-top: 14px;
+}
+
+.button {
+    padding: 8px 10px;
+    font-family: 'Press Start 2P', cursive;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.level {
+    padding: 10px 10px;
+    font-family: 'Press Start 2P', cursive;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    border-radius: 0px 10px 10px 0px;
+    height: 39px;
+    cursor: pointer;
+    margin-top: 1px;
+    position: absolute;
+    bottom: 20px;
+    left: 150px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.level:hover {
+    background-color: orangered;
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    box-shadow: 1px 1px 5px black;
+}
+
+.button:hover {
+    background-color: orangered;
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    box-shadow: 1px 1px 5px black;
+}
+
+footer label {
+    font-family: 'Press Start 2P', cursive;
+    color: black;
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+}
+
+.nivel {
+    background-color: white;
+    width: 120px;
+    text-align: center;
+    height: 39px;
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px black;
+}
+
+.exit {
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+}
+
+.stop {
+    position: absolute;
+    bottom: 20px;
+    right: 150px;
+}
+
+.pause {
+    position: absolute;
+    bottom: 20px;
+    right: 260px;
+}
+
+#mute {
+    position: fixed;
+    bottom: 150px;
+    left: 10px;
+    cursor: pointer;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px black;
+}
+
+
+.play {
+    position: absolute;
+    bottom: 20px;
+    left: 298px;
+}
+
+.arbustos {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    width: 100%;
+}
+
+.trees {
+    top: -4px;
+    width: 102%;
+    position: absolute;
+    left: -5px;
+}
+
+.quadrado3 {
+    width: 100%;
+    height: 50px;
+    top: 50px;
+    position: relative;
+    left: 0px;
+    background-image: url(../img/trees.png);
+}
+
+.quadrado4 {
+    background-image: url(../img/arbustos.png);
+    width: 100%;
+    height: 40px;
+    top: 82px;
+    position: fixed;
+}
+
+.toupeira {
+    user-select: none;
+}

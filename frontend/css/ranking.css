@@ -1,0 +1,103 @@
+* {
+    margin: auto;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, orangered , rgb(120,170,37));
+}
+
+.container {
+    width: 1200px;
+    font-family: 'Press Start 2P', cursive;
+    margin-top: -100px;
+    margin-bottom: 40px;
+}
+
+table {
+    width: 45%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.tg td {
+    border-width: 1px;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 15px 0px;
+    word-break: normal;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.tg th {
+    border-width: 1px;
+    font-size: 14px;
+    font-weight: normal;
+    overflow: hidden;
+    padding: 16px 0px;
+    word-break: normal;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.tg .tg-0lax {
+    vertical-align: top
+}
+
+.titulo {
+    text-align: center;
+    position:relative;
+    top: 140px;
+    font-size: 20px;
+}
+
+#select {
+    position:relative;
+    text-align: center;
+    top: 2px;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid, black;
+    color: rgb(255, 94, 0);
+    background-color: rgb(20, 20, 20);
+    font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
+}
+
+.option {
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.option:hover {
+    background-color: red;
+}
+
+.pergaminho {
+    background-image: url("../img/pergaminho.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: -50px;
+    height: 1300px;
+}
+
+
+.seta {
+    position: absolute;
+    top: 0px;
+    left: 270px;
+    text-decoration: none;
+    color: black;
+}
+
+.seta:hover {
+    color: rgb(68, 68, 68);
+}

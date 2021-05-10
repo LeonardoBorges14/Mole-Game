@@ -1,0 +1,84 @@
+* {
+    font-family: 'Press Start 2P', cursive;
+    box-sizing: border-box;
+}
+
+.swal-button  {
+    color: white;
+    background-color: orangered;
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px black;
+    outline: none;
+}
+
+.swal-modal {
+    color: black;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+.box {
+    width: 500px;
+    margin:auto;
+    border: 5px outset rgb(255, 107, 8);
+    border-radius: 20px;
+    text-align: center;
+    padding: 40px;
+    height: 500px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-250px;
+    margin-top:-280px;
+    background-color:white;
+    box-shadow: 10px 10px 20px black;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(120,170,37), orangered);
+}
+
+.inputText {
+    border: none;
+    padding: 20px;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+.usuario {
+    margin-bottom: 10px;
+}
+
+.entrar {
+    padding: 15px 80px 15px 80px;
+    background-color: orangered;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.entrar:hover {
+    background-color: rgb(255, 107, 8);
+    box-shadow: 1px 1px 5px black;
+}
+
+.cadastro {
+    font-size: 20px;
+    border-bottom: 2px solid black;
+}
+
+.seta {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.seta:hover {
+    color: rgb(68, 68, 68);
+}
+
+.back {
+    text-decoration: none;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Mole Game | Ranking</title>
+    <link rel="stylesheet" href="css/ranking.css">
+    <link rel="stylesheet" href="css/jAlertWifi.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="icon" href="img/favicon.gif" type="image/gif" sizes="64x50">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <script src="js/ranking.js"></script>
+    <script src="js/jAlertWifi.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+
+<body class="container">
+
+    <nav>
+        <div class="titulo">
+        <a class="back" href="game.html"><i class="bi bi-arrow-left-circle-fill seta" style="font-size: 40px"></i></a>
+            <h1>Ranking<i class="bi bi-trophy-fill" style="margin-left: 5px; font-size: 40px; color: rgb(196, 150, 0);"></i></h1>
+            <select name="" id="select" onchange="top20()">
+                <option class="option" id="easy" value="easy">Fácil</option>
+                <option class="option" id="medium" value="medium">Médio</option>
+                <option class="option" id="hard" value="hard">Difícil</option>
+            </select>
+        </div>
+
+    </nav>
+    <main>
+        <section>
+            <div class="pergaminho"><br><br><br><br><br><br><br><br>
+                <table class="tg">
+                    <thead>
+                        <tr>
+                            <th class="tg-0lax">Posição</th>
+                            <th class="tg-0lax">Usuário</th>
+                            <th class="tg-0lax">Pontuação</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody">
+                        
+                    </tbody>
+                </table>
+                <br><br><br><br><br>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
